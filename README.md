@@ -1,4 +1,4 @@
-# Construction-Site-PPE-Safety-Equipment-Segmentation-for-Worker-Safety
+# Smart PPE Detection: AI-Based Segmentation for Construction Worker Safety
 
 This repository provides an **AI-driven solution** for detecting and segmenting **Personal Protective Equipment (PPE)** and other essential safety objects on construction sites. The goal is to help ensure worker safety by automatically identifying critical PPE items, machinery, vehicles, and other objects crucial for safe construction site management.
 
