@@ -4,8 +4,9 @@ This repository provides an **AI-driven solution** for detecting and segmenting 
 
 This project leverages **state-of-the-art segmentation models** to identify and segment various objects in construction environments to enhance safety measures and compliance.
 ppe-detection-distributed/
+ppe-detection-distributed/
 ├── src/
-│   ├── distributed_train.py      
+│   ├── distributed_train.py      (this file)
 │   ├── models/
 │   │   ├── mask_rcnn.py          # Custom model definition
 │   ├── data/
@@ -13,7 +14,7 @@ ppe-detection-distributed/
 │   │   ├── transforms.py         # Custom augmentations
 │   ├── utils/
 │   │   ├── distributed.py        # Helper functions
-│   │   ├── logging.py             # Logging config
+│   │   ├── logging.py            # Logging config
 ├── configs/
 │   ├── base.yaml                 # Hyperparameters
 │   ├── aws_config.yaml           # Cloud deployment
@@ -23,8 +24,6 @@ ppe-detection-distributed/
 ├── Dockerfile                    # Training environment
 ├── requirements.txt              # Python dependencies
 └── README.md                     # Detailed setup guide
-
-
 ## Key Segmentation Classes:
 The following are the objects targeted for segmentation in this repository:
 
