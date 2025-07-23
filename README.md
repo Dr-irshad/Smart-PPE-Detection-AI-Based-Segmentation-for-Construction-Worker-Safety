@@ -3,6 +3,27 @@
 This repository provides an **AI-driven solution** for detecting and segmenting **Personal Protective Equipment (PPE)** and other essential safety objects on construction sites. The goal is to help ensure worker safety by automatically identifying critical PPE items, machinery, vehicles, and other objects crucial for safe construction site management.
 
 This project leverages **state-of-the-art segmentation models** to identify and segment various objects in construction environments to enhance safety measures and compliance.
+ppe-detection-distributed/
+├── src/
+│   ├── distributed_train.py      
+│   ├── models/
+│   │   ├── mask_rcnn.py          # Custom model definition
+│   ├── data/
+│   │   ├── dataset.py            # Enhanced dataset class
+│   │   ├── transforms.py         # Custom augmentations
+│   ├── utils/
+│   │   ├── distributed.py        # Helper functions
+│   │   ├── logging.py             # Logging config
+├── configs/
+│   ├── base.yaml                 # Hyperparameters
+│   ├── aws_config.yaml           # Cloud deployment
+├── scripts/
+│   ├── launch_aws.sh             # AWS cluster script
+│   ├── docker_build.sh           # Container build
+├── Dockerfile                    # Training environment
+├── requirements.txt              # Python dependencies
+└── README.md                     # Detailed setup guide
+
 
 ## Key Segmentation Classes:
 The following are the objects targeted for segmentation in this repository:
